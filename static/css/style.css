@@ -1,0 +1,68 @@
+h1 {
+  color: purple;
+  font-size: 35px;
+  width: 20%;
+  padding-top: 60px;
+}
+
+.index-container {
+    color: purple;
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size: 1500%;
+    width: 30%;
+    padding-top: 10px;
+}
+
+h2 {
+  color: purple;
+  font-size: 45px;
+  width: 40%;
+  padding-top: 200px;
+}
+
+.about-container {
+  color: purple;
+  font-size: 20px;
+  width: 40%;
+  padding-top: 40px;
+}
+.container{
+    max-width:100%;
+}
+.container > img {
+  float: right;
+  padding-bottom: 5%;
+  max-width:300px;
+}
+
+body {
+  background: #afe1af;
+}
+
+@media only screen and (max-width:600px) {
+  .index-container {
+    color: purple;
+    position:relative;
+    font-size: 1000%;
+    width: 100%;
+    align-content:center;
+    padding-top: 10px;
+  }
+    h2 {
+        font-size: 35px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about-container {
+      color: purple;
+      font-size: 20px;
+      width: 100%;
+      padding-top: 40px;
+    }
+    .container > img {
+        max-width:170px;
+    }
+
+}
