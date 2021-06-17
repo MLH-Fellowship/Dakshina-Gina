@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 
 load_dotenv()
 app = Flask(__name__)
@@ -26,4 +26,7 @@ def projects():
     return render_template("projects.html")
 
 
-
+@app.route('/health')
+def health():
+    resp = jsonify(success=True)
+    return resp
