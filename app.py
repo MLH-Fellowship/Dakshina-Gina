@@ -24,3 +24,8 @@ def experience():
 @app.route('/projects')
 def projects():
     return render_template("projects.html")
+
+
+@app.route('/health')
+def projects():
+    return render_template("index.html")
