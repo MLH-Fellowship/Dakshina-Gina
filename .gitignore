@@ -266,6 +266,8 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
+##flask.sqlite
+.flask.sqlite
 ### Python ###
 # Byte-compiled / optimized / DLL files
 
